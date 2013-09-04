@@ -149,17 +149,17 @@ $lang = array(
 'rte_center_error' => 
 'Вы не можете центровать элемент который обёрнут ',
 
-'url' => 
+'rte_url' => 
 'URL',
 
-'title' => 
+'rte_title' => 
 'Заголовок',
 
-'relationship' => 
-'Связь',
+'rte_relationship' => 
+'Связи',
 
-'selection_error' => 
-'Пожалуйста выберите сначала текст или изображение.',
+'rte_selection_error' => 
+'Пожалуйста выберите сначала какой то текст или изображение.',
 
 'blockquote_rte' => 
 'Цитата',

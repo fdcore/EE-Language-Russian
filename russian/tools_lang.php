@@ -101,9 +101,6 @@ $lang = array(
 'db_caching' => 
 'Кэш-файлы базы данных',
 
-'cached_relationships' => 
-'Кэшированные записи отношений',
-
 'all_caching' => 
 'Все кэши',
 
@@ -194,6 +191,12 @@ $lang = array(
 'deprecated_use_instead' => 
 'Взамен используйте <b>%s.</b>',
 
+'deprecated_template' => 
+'Из шаблона тег %s в %s.',
+
+'deprecated_snippets' => 
+'Этот тег может быть обработан одним из этих сниппетов: %s',
+
 'deprecation_detected' => 
 'Система обнаружила дополнения, которые используют устаревший код, который может перестать работать или привести к проблемам с системой.',
 
@@ -204,7 +207,7 @@ $lang = array(
 'Что это значит?',
 
 'deprecated_meaning' => 
-'',
+'<p>Произошло одно из двух:</p><ol>	<li>The system has detected native code or an add-on that is using outdated code that may stop working or cause issues with the system. This means an add-on in your installation is accessing a part of ExpressionEngine\'s core code which EllisLab plans to remove in the future in order to improve the quality of the product.</li>	<li>A warning or message was raised by native code or an add-on for the Super Admin to view.</li></ol><p>Чтобы исправить, вам нужно сделать что то одно из следующего ниже:</p><ul>	<li>Contact the developer who manages your ExpressionEngine installation for help</li>	<li>Make sure you have the latest version of all your installed add-ons</li>	<li>Contact the developer of the offending add-on to make sure they\'re aware of the problem and plans to issue an update</li></ul>',
 
 'screen_name' => 
 'Псевдоним',

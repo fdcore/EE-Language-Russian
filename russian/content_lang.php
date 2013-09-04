@@ -3,7 +3,7 @@ $lang = array(
 
 
 'url_title_is_index' => 
-' URL-заголовок не может называться \\\\"index\\\\"',
+'URL-заголовок не может называться "index"',
 
 'no_related_entries' => 
 'Нет записей для этого связанного блога',
@@ -61,9 +61,6 @@ $lang = array(
 
 'revision_saved' => 
 'Версия сохранена',
-
-'dst_enabled' => 
-'Летнее время на дату записи',
 
 'multi_entries_updated' => 
 'Записи обновлены',
@@ -238,15 +235,6 @@ $lang = array(
 
 'publish_form' => 
 'Форма публикации',
-
-'pings' => 
-'Пинги',
-
-'no_ping_sites' => 
-'Нет серверов для пинга.',
-
-'add_ping_sites' => 
-'Добавить пинг сервер.',
 
 'entry_date' => 
 'Дата публикации',
@@ -503,18 +491,6 @@ $lang = array(
 'allow_comments' => 
 'Разрешить комментарии',
 
-'ping_sites' => 
-'Сайты для пинга',
-
-'select_entries_to_ping' => 
-'Выберите записи, предназначенные для пинга',
-
-'view_previous_pings' => 
-'Просмотр предыдущих пингов',
-
-'previously_pinged_urls' => 
-'Вы ранее проверяли с помощью ping-запросов следующие URL',
-
 'date' => 
 'Дата',
 
@@ -626,9 +602,6 @@ $lang = array(
 'entry_has_been_updated' => 
 'Запись обновлена',
 
-'xmlrpc_ping_errors' => 
-'Следующие XML-RPC пинги не принимаются:',
-
 'click_to_view_your_entry' => 
 'Нажмите для просмотра записи',
 
@@ -641,10 +614,10 @@ $lang = array(
 'view_filtered' => 
 'Вернитесь к фильтруемым записям',
 
-'publish_another_entry' =>
+'publish_another_entry' => 
 'Публиковать ещё одну запись',
 
-'autosaved_entries' =>
+'autosaved_entries' => 
 'Автосохраненные записи',
 
 'autosaved' => 
@@ -1065,7 +1038,7 @@ $lang = array(
 'Невозможно загрузить требуемый файл вкладки: %s',
 
 'unable_to_load_field_type' => 
-'Unable to load requested field type file:  %s.<br />Confirm the fieldtype file is located in the expressionengine/third_party/ directory',
+'Не удаётся загрузить требуемый файл типа поля: %s.<br />Подтвердите что файл типа поля находятся в директории expressionengine/third_party/',
 
 'no_templates' => 
 'Нет шаблонов',
@@ -1097,9 +1070,6 @@ $lang = array(
 'menu_date' => 
 'Дата',
 
-'menu_pings' => 
-'Пинги',
-
 'menu_pages' => 
 'Страницы',
 
@@ -1112,8 +1082,11 @@ $lang = array(
 'menu_forum' => 
 'Форумы',
 
+'rel_ft_no_entries' => 
+'Нет записей',
+
 'translate' => 
-'Update',
+'Обновить',
 
 ''=>''
 );

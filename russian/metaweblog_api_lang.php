@@ -35,9 +35,10 @@ $lang = array(
 'unauthorized_action' => 
 'Вы не авторизованы для выполнения этой операции.',
 
-'invalid_access' =>
-'Отказ в доступе',
-'entry_uneditable' =>
+'new_entry_errors' => 
+'Ошибки записи:',
+
+'entry_uneditable' => 
 'Вы не можете редактировать эту запись. Проверьте наличие соответствующих разрешений для группы участников.',
 
 'no_metaweblog_configs' => 
@@ -146,7 +147,7 @@ $lang = array(
 'XHTML',
 
 'translate' => 
-'Update',
+'Обновить',
 
 ''=>''
 );

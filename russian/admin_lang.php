@@ -1019,6 +1019,12 @@ $lang = array(
 'used_in_meta_tags' => 
 'Используется в мета-тегах Панели управления',
 
+'use_newrelic' => 
+'',
+
+'use_newrelic_explanation' => 
+'',
+
 'gzip_output' => 
 'Включить GZIP-вывод?',
 
@@ -1049,17 +1055,8 @@ $lang = array(
 'european' => 
 'Европейский',
 
-'server_timezone' => 
-'Часовой пояс сервера',
-
-'server_offset' => 
-'Смещение времени сервера (в минутах)',
-
-'server_offset_explain' => 
-'Используйте знак минус для вычитания минут: -15',
-
-'daylight_savings' => 
-'Летнее время',
+'default_site_timezone' => 
+'',
 
 'cookie_cfg' => 
 'Настройки Cookie',
@@ -1129,6 +1126,9 @@ $lang = array(
 
 'smtp_server' => 
 'Адрес SMTP-сервера',
+
+'smtp_port' => 
+'',
 
 'smtp_username' => 
 'Логин SMTP ',
@@ -1243,9 +1243,6 @@ $lang = array(
 
 'missing_required_fields' => 
 'Пропущено обязательное для заполнения поле:',
-
-'default_ping_servers' => 
-'Пинг-серверы по умолчанию',
 
 'statuses' => 
 'Статусы',
@@ -1595,9 +1592,6 @@ $lang = array(
 'update_and_return' => 
 'Обновить и закрыть',
 
-'cached_relationships' => 
-'Кэшированные записи отношений',
-
 'template_debugging' => 
 'Включить отладку шаблона?',
 
@@ -1651,6 +1645,9 @@ $lang = array(
 
 'illegal_characters' => 
 'Указанное Вами название блога может состоять только из букв, цифр, пробелов, подчеркиваний и дефисов',
+
+'developer_logs' => 
+'У вас %d не просмотренных записей в <a href="%s">Журнале разработчика</a>',
 
 'translate' => 
 'Обновить',

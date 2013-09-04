@@ -743,6 +743,9 @@ $lang = array(
 'registration_form' => 
 'Форма регистрации',
 
+'reset_password_form' => 
+'Форма сброса пароля',
+
 'stylesheet' => 
 'CSS-стили',
 

@@ -47,9 +47,6 @@ $lang = array(
 'existing_un' => 
 'Ваше существующее имя пользователя',
 
-'existing_pw' => 
-'Ваш текущий пароль',
-
 'un_len' => 
 'Имена пользователей должны состоять не менее чем из %x символов',
 
@@ -374,6 +371,9 @@ $lang = array(
 'login_required' => 
 'Вход в систему',
 
+'sign_in' => 
+'',
+
 'must_be_logged_in' => 
 'Эта страница доступна только после входа в систему при наличии соответствующих прав доступа',
 
@@ -534,7 +534,7 @@ $lang = array(
 'AOL',
 
 'mbr_icq' => 
-'ICQ',
+'ICQ:',
 
 'mbr_url' => 
 'Домашняя страница',
@@ -557,9 +557,10 @@ $lang = array(
 'mbr_field_required' => 
 'Это поле необходимо заполнить:',
 
-'mbr_field_invalid' =>
+'mbr_field_invalid' => 
 'Следующее поле содержит недопустимый выбор:',
-'mbr_username_length' =>
+
+'mbr_username_length' => 
 'Имена пользователей должны состоять, как минимум, из %x символов',
 
 'mbr_password_length' => 
@@ -613,9 +614,7 @@ $lang = array(
 'mbr_most_recent_comment' => 
 'Последний комментарий',
 
-'mbr_submit' =>
-'Отправить',
-'mbr_join_date' =>
+'mbr_join_date' => 
 'Дата регистрации',
 
 'mbr_total_entries' => 
@@ -717,9 +716,7 @@ $lang = array(
 'mbr_aol_im' => 
 'AOL IM',
 
-'mbr_icq' =>
-'ICQ:',
-'mbr_yahoo' =>
+'mbr_yahoo' => 
 'Yahoo Messenger',
 
 'mbr_msn' => 
@@ -863,9 +860,7 @@ $lang = array(
 'delete_selected_members' => 
 'Удалить выбранных участников',
 
-'member_search' =>
-'Поиск участника',
-'any' =>
+'any' => 
 'Все',
 
 'search_results' => 
@@ -892,8 +887,23 @@ $lang = array(
 'powered_by_ee' => 
 'Работает на ExpressionEngine',
 
+'mbr_reset_password' => 
+'Пожалуйста введите новый пароль',
+
+'mbr_missing_password' => 
+'Пожалуйста введите новый пароль.',
+
+'mbr_missing_confirm' => 
+'Пожалуйста введите новый пароль.',
+
+'mbr_password_changed' => 
+'Пароль успешно изменён.',
+
+'mbr_successfully_changed_password' => 
+'Вы успешно изменили пароль. Пожалуйста, войдите с помощью нового пароля.',
+
 'translate' => 
-'Update',
+'Обновить',
 
 ''=>''
 );
