@@ -1020,7 +1020,7 @@ $lang = array(
 'Используется в мета-тегах Панели управления',
 
 'use_newrelic' => 
-'',
+'Включить New Relic RUM JavaScript?',
 
 'use_newrelic_explanation' => 
 '',
@@ -1056,7 +1056,7 @@ $lang = array(
 'Европейский',
 
 'default_site_timezone' => 
-'',
+'Часовой пояс сайта',
 
 'cookie_cfg' => 
 'Настройки Cookie',
@@ -1128,7 +1128,7 @@ $lang = array(
 'Адрес SMTP-сервера',
 
 'smtp_port' => 
-'',
+'Порт SMTP ',
 
 'smtp_username' => 
 'Логин SMTP ',

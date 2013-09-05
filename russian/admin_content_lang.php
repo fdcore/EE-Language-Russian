@@ -224,12 +224,6 @@ $lang = array(
 'search_results_url_exp' => 
 'URL-адрес, по которому будут выводиться результаты поиска в этом блоге.',
 
-'ping_return_url' => 
-'URL возврата пинга',
-
-'ping_return_url_exp' => 
-'Обратный URL-адрес, по которому приходят посетители, видящие Вашу ссылку на пингуемых Вами сайтах.',
-
 'comment_expiration' => 
 'Срок показа комментариев',
 
@@ -455,9 +449,6 @@ $lang = array(
 'invalid_field_group_selected' => 
 'Некорректное поле группы',
 
-'missing_channel_data_for_pings' => 
-'Для использования пингов необходимо обновить настройки канала: задать заголовок/url.',
-
 'open' => 
 'Открыто',
 
@@ -493,33 +484,6 @@ $lang = array(
 
 'row' => 
 'Ряд',
-
-'server_name' => 
-'Имя сервера',
-
-'server_url' => 
-'URL сервера/путь',
-
-'port' => 
-'Порт',
-
-'protocol' => 
-'Протокол',
-
-'is_default' => 
-'По умолчанию',
-
-'server_order' => 
-'Порядок',
-
-'define_ping_servers' => 
-'Здесь указывается список серверов, которым посылается пинг при публикации записей блога',
-
-'pingserver_delete_instructions' => 
-'Для удаления сервера отправьте форму с незаполненным именем сервера',
-
-'assign_channels' => 
-'Выберите категории, которым будет назначена группа',
 
 'group' => 
 'Группа',
@@ -881,6 +845,9 @@ $lang = array(
 'duplicate_field_name' => 
 'Указанное Вами название поля уже занято',
 
+'duplicate_truncated_field_name' => 
+'Указанное Вами название поле слишном длинное и обрезанное имя уже занято.',
+
 'taken_field_group_name' => 
 'Выбранное Вами название группы полей уже занято',
 
@@ -904,12 +871,6 @@ $lang = array(
 
 'field_content_text' => 
 'Содержимое поля:',
-
-'field_content_file' => 
-'Тип файла:',
-
-'allowed_dirs_file' => 
-'Доступные директории',
 
 'type_numeric' => 
 'Номер',
@@ -1039,6 +1000,27 @@ $lang = array(
 
 'field_name_too_lrg' => 
 'Имя поля которое вы ввели превышает максимальную длину и было сокращено. Ознакомьтесь пожалуйста..',
+
+'channel_form_settings' => 
+'Настройки канала',
+
+'channel_form_settings_updated' => 
+'Настройки канала сохранены',
+
+'channel_form_default_status' => 
+'Стандартный статус',
+
+'channel_form_allow_guest_posts' => 
+'Разрешить гостям публикацию?',
+
+'channel_form_guest_captcha' => 
+'Гостям каптча?',
+
+'channel_form_guest_author' => 
+'Гость Автор',
+
+'channel_form_default_status_empty' => 
+'-- Использовать стандартный канал --',
 
 'invalid_api_parameter' => 
 'Не удалось создать / обновить запись. Отсутствует API параметра.',

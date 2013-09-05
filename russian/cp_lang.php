@@ -242,6 +242,12 @@ $lang = array(
 'nav_field_group_management_short_desc' => 
 'Создать, изменить, и удалить настраиваемые поля',
 
+'nav_channel_form_settings' => 
+'Каналы',
+
+'nav_channel_form_settings_short_desc' => 
+'Управление параметрами каналов',
+
 'nav_status_group_management' => 
 'Настр. статус группы',
 
@@ -257,6 +263,9 @@ $lang = array(
 'nav_admin_content' => 
 'Админ. контента',
 
+'nav_file_manager_short_desc' => 
+'Настройки загрузки файлов',
+
 'nav_file_upload_preferences' => 
 'Настройки загрузки файлов',
 
@@ -266,17 +275,8 @@ $lang = array(
 'nav_file_watermark_preferences' => 
 'Настройки водяного знака',
 
-'nav_file_manager_short_desc' => 
-'Настройки загрузки файлов',
-
 'nav_file_watermark_preferences_short_desc' => 
 'Настройки водяного знака',
-
-'nav_default_ping_servers' => 
-'Стандартные пинг сервера',
-
-'nav_default_ping_servers_short_desc' => 
-'Создать, изменить, и удалить Серверы пинга по-умолчанию',
 
 'nav_default_html_buttons' => 
 'Стандартные HTML кнопки',
@@ -589,9 +589,6 @@ $lang = array(
 
 'any' => 
 'Все',
-
-'mobile_not_supported' => 
-'Эта функция не поддерживается мобильными браузерами',
 
 'required_fields' => 
 'Обязательные для заполнения поля',
