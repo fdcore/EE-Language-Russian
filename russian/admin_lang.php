@@ -1025,6 +1025,12 @@ $lang = array(
 'use_newrelic_explanation' => 
 '',
 
+'newrelic_app_name' => 
+'Имя приложения New Relic',
+
+'newrelic_app_name_explanation' => 
+'',
+
 'gzip_output' => 
 'Включить GZIP-вывод?',
 
@@ -1056,7 +1062,7 @@ $lang = array(
 'Европейский',
 
 'default_site_timezone' => 
-'Часовой пояс сайта',
+'Временая зона сайта',
 
 'cookie_cfg' => 
 'Настройки Cookie',
@@ -1129,6 +1135,9 @@ $lang = array(
 
 'smtp_port' => 
 'Порт SMTP ',
+
+'empty_stmp_fields' => 
+'Поле %s обязательно для SMTP',
 
 'smtp_username' => 
 'Логин SMTP ',
