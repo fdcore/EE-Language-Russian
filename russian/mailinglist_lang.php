@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'mailinglist_module_name' => 
 'Рассылка',
@@ -8,8 +11,10 @@ $lang = array(
 'mailinglist_module_description' => 
 'Менеджер рассылок',
 
-'email' => 
-'Email Адрес',
+//----------------------------------------
+
+'email' =>
+'Email адрес',
 
 'mailinglist_disabled' => 
 'В настоящее время нет приема новых подписчиков на рассылку.',
@@ -169,7 +174,7 @@ $lang = array(
 
 'ml_emails_deleted' =>
 'Адреса электронной почты были удалены',
-'ml_missing_email' =>
+'ml_missing_email' => 
 'Необходимо ввести адрес E-mail',
 
 'ml_invalid_email' => 
@@ -229,10 +234,11 @@ $lang = array(
 'ml_bad_email_heading' => 
 'Следующие адреса не могут быть импортированы:',
 
-'translate' => 
-'Обновить',
+
+
 
 ''=>''
 );
 
-// End of File
+/* End of file mailinglist_lang.php */
+/* Location: ./system/expressionengine/language/russian/mailinglist_lang.php */

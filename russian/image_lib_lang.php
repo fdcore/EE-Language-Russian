@@ -44,10 +44,8 @@ $lang = array(
 'imglib_copy_failed' => 
 'Копирование изображения невозможно.',
 
-'translate' => 
-'Update',
 
-''=>''
-);
-
-// End of File
+// IGNORE
+''=>'');
+/* End of file image_lib_lang.php */
+/* Location: ./system/expressionengine/language/russian/image_lib_lang.php */

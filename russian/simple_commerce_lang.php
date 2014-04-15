@@ -180,10 +180,10 @@ $lang = array(
 'Шаблон E-mail для уведомления покупателя',
 
 'on_subscribe' => 
-'On Subscribe',
+'Подписаться',
 
 'on_unsubscribe' => 
-'On Unsubscribe',
+'Отписаться',
 
 'customer_email_subscribe' => 
 'Шаблон Email подписки покупателя',
@@ -233,6 +233,10 @@ $lang = array(
 'choose_item' => 
 'Выбрать товар',
 
+'invalid_emails' =>
+'Недопустимые электронный адрес',
+'invalid_purchases' =>
+'Недупостимая Покупка',
 'fields_left_blank' => 
 'Некоторые обязательные поля остались незаполненными',
 
@@ -260,6 +264,8 @@ $lang = array(
 'email_instructions' => 
 'Для предотвращения проблем с таймаутом Email-адреса импортируются ограниченными пакетами.  Этот процесс не слишком загружает процессор, поэтому нормальным числом для среднестатистического сервера здесь будет 5000. Просьба указать желаемое число. ',
 
+'email_name' =>
+'Имя шаблона для Email',
 'email_subject' => 
 'Тема:',
 
@@ -314,6 +320,8 @@ $lang = array(
 'item_cost' => 
 'Стоимость товара',
 
+'choose_item' =>
+'Выберите товар',
 'invalid_date_formatting' => 
 'Указанная Вами дата имеет неверный формат (год-месяц-день час:минута)',
 
@@ -359,10 +367,8 @@ $lang = array(
 'no_entries_matching_that_criteria' => 
 'Записей, соответствующих указанным Вами критериям, нет',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
 
-// End of File
+/* End of file simple_commerce_lang.php */
+/* Location: ./system/expressionengine/language/russian/simple_commerce_lang.php */

@@ -47,8 +47,8 @@ $lang = array(
 'view_cp_log' => 
 'Просмотр журнала ПУ',
 
-'view_developer_log' => 
-'Журнал разработчика',
+'view_developer_log' =>
+'Просмотр журнала разработчика',
 
 'import_utilities' => 
 'Утилиты импорта',
@@ -101,6 +101,9 @@ $lang = array(
 'db_caching' => 
 'Кэш-файлы базы данных',
 
+'cached_relationships' => 
+'Кэшированные записи отношений',
+
 'all_caching' => 
 'Все кэши',
 
@@ -140,8 +143,8 @@ $lang = array(
 'trans_file_not_writable' => 
 'Файл перевода не имеет прав на запись.',
 
-'logs_deleted' => 
-'Логи удалены',
+'import_from_mt' => 
+'Утилита импорта из Movable Type',
 
 'member_import' => 
 'Утилита импорта участников',
@@ -170,52 +173,42 @@ $lang = array(
 'false' => 
 'Ложь',
 
+/* Translation */
 'translation_dir_unwritable' => 
 'Внимание! Директория перевода защищена от записи.',
 
-'log_id' => 
-'ID Лога',
+/* Developer Log */
+'log_id'				=> 'ID Журнала',
+'log_message'			=> 'Сообщение',
+'deprecated_function'	=> 'Не рекомендуемая функция %s обратилась',
+'deprecated_on_line'	=> 'в %s на строки %d.',
+'deprecated_since'		=> 'Не рекомендуется начиная с %s.',
+'deprecated_use_instead'	=> 'Используйте %s вместо.',
+'deprecated_template'	=> 'Из шаблона тэга %s в %s.',
+'deprecated_snippets'	=> 'Этот тэг может быть проанализирован с одним из этих фрагментов: %s',
+'deprecation_detected'	=> 'Это журнал для разработчиков, для информирования Администраторов сайта о всех уведомлениях или предупреждениях системы.',
+'dev_log_view_report'	=> 'Просмотреть отчет',
+'dev_log_help'			=> 'Что это означает?',
+'deprecated_meaning'	=>
+'<p>Одна из двух ситуаций:</p>
+<ol>
+	<li>Система обнаружила машинный код или дополнение, использующей устаревшие код, который может перестать работать или вызвать проблемы с системой. Это означает, дополнение в вашей установке обращается к части кода ядра, которое ExpressionEngine EllisLab планирует снять в будущем для того, чтобы улучшить качество продукта.</li>
+	<li>Предупреждение или сообщение было отображено исходным кодом или дополнением для просмотра Администратором. </li>
+</ol>
+<p>Для устранения этих уведомлений, вам, возможно, придется выполнить одно из следующих действий:</p>
+<ul>
+	<li>Связаться с разработчиком, который управляет вашей установкой ExpressionEngine за помощью</li>
+	<li>Убедитесь, что у вас установлена ​​последняя версия всех установленных дополнений</li>
+	<li>Обратиться к разработчику проблемного дополнения, чтобы удостовериться, что они знают о проблеме и планирует выпустить обновление</li>
+</ul>',
 
-'log_message' => 
-'Сообщение',
-
-'deprecated_function' => 
-'Вызвана устаревшая функция <b>%s</b>',
-
-'deprecated_on_line' => 
-'в <b>%s</b> на строчке <b>%d</b>',
-
-'deprecated_since' => 
-'Устарела начиная с <b>%s</b>.',
-
-'deprecated_use_instead' => 
-'Взамен используйте <b>%s.</b>',
-
-'deprecated_template' => 
-'Из шаблона тег %s в %s.',
-
-'deprecated_snippets' => 
-'Этот тег может быть обработан одним из этих сниппетов: %s',
-
-'deprecation_detected' => 
-'Система обнаружила дополнения, которые используют устаревший код, который может перестать работать или привести к проблемам с системой.',
-
-'dev_log_view_report' => 
-'Посмотреть отчёт',
-
-'dev_log_help' => 
-'Что это значит?',
-
-'deprecated_meaning' => 
-'<p>Произошло одно из двух:</p><ol>	<li>The system has detected native code or an add-on that is using outdated code that may stop working or cause issues with the system. This means an add-on in your installation is accessing a part of ExpressionEngine\'s core code which EllisLab plans to remove in the future in order to improve the quality of the product.</li>	<li>A warning or message was raised by native code or an add-on for the Super Admin to view.</li></ol><p>Чтобы исправить, вам нужно сделать что то одно из следующего ниже:</p><ul>	<li>Contact the developer who manages your ExpressionEngine installation for help</li>	<li>Make sure you have the latest version of all your installed add-ons</li>	<li>Contact the developer of the offending add-on to make sure they\'re aware of the problem and plans to issue an update</li></ul>',
 
 'screen_name' => 
-'Псевдоним',
+'Отображаемое имя',
 
-'translate' => 
-'Обновить',
 
 ''=>''
 );
 
-// End of File
+/* End of file tools_lang.php */
+/* Location: ./system/expressionengine/language/russian/tools_lang.php */

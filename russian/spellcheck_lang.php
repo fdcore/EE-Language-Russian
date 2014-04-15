@@ -29,10 +29,10 @@ $lang = array(
 'spellcheck_in_progress' => 
 'Выполняется проверка...',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+
+/* End of file spellcheck_lang.php */
+/* Location: ./system/expressionengine/language/russian/spellcheck_lang.php */

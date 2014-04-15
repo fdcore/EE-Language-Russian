@@ -50,10 +50,8 @@ $lang = array(
 'fb_insert_urls' => 
 'Вставить URL',
 
-'translate' => 
-'Update',
 
-''=>''
-);
-
-// End of File
+// IGNORE
+''=>'');
+/* End of file filebrowser_lang.php */
+/* Location: ./system/expressionengine/language/russian/filebrowser_lang.php */

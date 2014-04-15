@@ -3,12 +3,10 @@ $lang = array(
 
 
 'invalid_license' => 
-'Неверная лицензия',
-
-'translate' => 
-'Обновить',
+'Недопустимая лицензия',
 
 ''=>''
 );
 
-// End of File
+/* End of file xmlrpc_lang.php */
+/* Location: ./system/expressionengine/language/russian/xmlrpc_lang.php */

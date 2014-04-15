@@ -1,9 +1,14 @@
 <?php
 $lang = array(
 
-
+/* no Javascript Warning */
 'no_js_warning' => 
 'Javascript должен быть включен для того, чтобы эта тема функционировала должным образом. Пожалуйста, проверьте настройки браузера.',
+
+
+//----------------------------
+// Main Menu
+//----------------------------
 
 'nav_content' => 
 'Содержание',
@@ -79,6 +84,12 @@ $lang = array(
 
 'nav_template_manager_short_desc' => 
 'Создание, изменинение, удаление и управление Шаблонами и Группами шаблонов',
+
+'nav_template_route_manager' =>
+'Менеджер маршрутизации шаблона',
+
+'nav_template_route_manager_short_desc'	=>
+'Обзор, редактирование и управление Маршрутизацией шаблона',
 
 'nav_template_preferences' => 
 'Настройки шаблонов',
@@ -242,11 +253,11 @@ $lang = array(
 'nav_field_group_management_short_desc' => 
 'Создать, изменить, и удалить настраиваемые поля',
 
-'nav_channel_form_settings' => 
-'Настройки форм каналов',
+'nav_channel_form_settings' =>
+'Формы канала',
 
-'nav_channel_form_settings_short_desc' => 
-'Управление параметрами каналов',
+'nav_channel_form_settings_short_desc'	=>
+'Управление настроками внешнего интерфеса Формы Канала',
 
 'nav_status_group_management' => 
 'Настр. статус группы',
@@ -263,8 +274,8 @@ $lang = array(
 'nav_admin_content' => 
 'Админ. контента',
 
-'nav_file_manager_short_desc' => 
-'Настройки загрузки файлов',
+'nav_file_manager_short_desc'  =>
+'Загрузка, редактирование и удаление файлов',
 
 'nav_file_upload_preferences' => 
 'Настройки загрузки файлов',
@@ -274,6 +285,9 @@ $lang = array(
 
 'nav_file_watermark_preferences' => 
 'Настройки водяного знака',
+
+'nav_file_manager_short_desc' => 
+'Настройки загрузки файлов',
 
 'nav_file_watermark_preferences_short_desc' => 
 'Настройки водяного знака',
@@ -465,10 +479,10 @@ $lang = array(
 'Просмотр и очистка Email журнала',
 
 'nav_view_developer_log' => 
-'Журнал разработчика',
+'Лог разработчика',
 
 'nav_view_developer_log_short_desc' => 
-'Просмотр и управление журналом разработчика',
+'Просмотр и управление логом Разработчика',
 
 'nav_help' => 
 'Помощь',
@@ -478,6 +492,9 @@ $lang = array(
 
 'nav_add_tab' => 
 '+ Добавить',
+//----------------------------
+// Control Panel
+//----------------------------
 
 'session_expiring' => 
 'Ваша сессия истекла. Пожалуйста, войдите в систему, чтобы избежать потери данных',
@@ -527,20 +544,26 @@ $lang = array(
 'user_guide' => 
 'Руководство',
 
+'logout_confirm' => 
+'Вы уверены что хотите выйти?',
+
 'logout' => 
 'Выход',
 
-'session_idle' => 
-'Ваша сессия истекает в ближайшее время из-за неактивности.',
+'session_idle' =>
+'Обнаружена сессия ожидания',
 
-'session_idle_description' => 
-'Вы в режиме ожидания, введите пароль, чтобы продолжить.',
+'session_timeout' => 
+'Ваша сессия истекает в ближайшее время из-за неактивности',
 
-'session_idle_not_name' => 
+'session_idle_description' =>
+'Вы перешли в режим ожидания. Пожалуйста, введите пароль для продолжения.',
+
+'session_idle_not_name' =>
 'Вы не %s?',
 
 'login' => 
-'Вход',
+'Логин',
 
 'copyright' => 
 'Авторское право',
@@ -595,6 +618,9 @@ $lang = array(
 
 'required_fields' => 
 'Обязательные для заполнения поля',
+
+'login' => 
+'Войти',
 
 'forgotten_password' => 
 'Восстановление пароля',
@@ -731,6 +757,9 @@ $lang = array(
 'recent_comments' => 
 'Последние комментарии',
 
+'user_guide' => 
+'Руководство пользователя',
+
 'ee_wiki' => 
 'EE Wiki',
 
@@ -757,6 +786,9 @@ $lang = array(
 
 'site_id' => 
 'ID сайта',
+
+'site' => 
+'Сайт',
 
 'site_specific_data' => 
 'Эти данные не для всех сайтов.  Если Вы хотите выбрать или изменить данные другого сайта, используйте закладку меню «Сайты» для переключения на этот сайт.',
@@ -845,10 +877,8 @@ $lang = array(
 'ee_podcast' => 
 'EE Podcast',
 
-'translate' => 
-'Обновить',
-
 ''=>''
 );
 
-// End of File
+/* End of file cp_lang.php */
+/* Location: ./system/expressionengine/language/russian/cp_lang.php */

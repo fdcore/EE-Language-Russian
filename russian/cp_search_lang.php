@@ -86,9 +86,6 @@ $lang = array(
 'util_member_import' => 
 'Импорт участников',
 
-'util_import_from_mt' => 
-'Импорт из MT',
-
 'util_import_from_xml' => 
 'Импорт из XML',
 
@@ -107,10 +104,11 @@ $lang = array(
 'acce_index' => 
 'Аксессуары',
 
-'translate' => 
-'Update',
+
+
 
 ''=>''
 );
 
-// End of File
+/* End of file cp_search_lang.php */
+/* Location: ./system/expressionengine/language/russian/cp_search_lang.php */

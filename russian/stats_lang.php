@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'stats_module_name' => 
 'Статистика',
@@ -8,10 +11,15 @@ $lang = array(
 'stats_module_description' => 
 'Модуль отображения статистики',
 
-'translate' => 
-'Update',
+//----------------------------------------
+
+
+
+
+
 
 ''=>''
 );
 
-// End of File
+/* End of file stats_lang.php */
+/* Location: ./system/expressionengine/language/russian/stats_lang.php */

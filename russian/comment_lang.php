@@ -1,12 +1,18 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'comment_module_name' => 
 'Комментарий',
 
 'comment_module_description' => 
 'Система комментирования',
+
+//----------------------------------------
+
 
 'comment_moved' => 
 'Комментарий перемещен',
@@ -296,13 +302,10 @@ $lang = array(
 'expand' => 
 'Развернуть',
 
-'no_results' => 
+'no_results' =>
 'Нет результатов',
 
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+/* End of file comment_lang.php */
+/* Location: ./system/expressionengine/language/russian/comment_lang.php */

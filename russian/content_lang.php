@@ -1,1094 +1,1114 @@
 <?php
 $lang = array(
 
+//----------------------------
+// Publish page
+//----------------------------
 
-'url_title_is_index' => 
-'URL-заголовок не может называться "index"',
+'url_title_is_index' =>
+'URL-заголовок не может называться \\\\"index\\\\"',
 
-'no_related_entries' => 
+'no_related_entries' =>
 'Нет записей для этого связанного блога',
 
-'localized_date' => 
+'localized_date' =>
 'Локализовано',
 
-'fixed_date' => 
+'fixed_date' =>
 'Фиксировано',
 
-'calendar' => 
+'calendar' =>
 'Календарь',
 
-'edit_categories' => 
+'edit_categories' =>
 'Редактировать категории',
 
-'revisions' => 
+'revisions' =>
 'Версии',
 
-'rev_date' => 
+'rev_date' =>
 'Дата',
 
-'rev_author' => 
+'rev_author' =>
 'Автор',
 
-'revision' => 
+'revision' =>
 'Версия',
 
-'formatting' => 
+'formatting' =>
 'Форматирование:',
 
-'live_view' => 
+'live_view' =>
 'Нажать для просмотра',
 
-'versioning_enabled' => 
+'versioning_enabled' =>
 'Включить сохранение версий для этой записи',
 
-'revision_warning' => 
+'revision_warning' =>
 'Вы собираетесь загрузить предыдущую версию.  Любой несохраненный контент этой страницы будет утрачен.',
 
-'load_revision' => 
+'load_revision' =>
 'Загрузить версию',
 
-'current_rev' => 
+'current_rev' =>
 'Сейчас загружена',
 
-'version_preview' => 
+'version_preview' =>
 'Номер версии %s',
 
-'no_revisions_exist' => 
+'no_revisions_exist' =>
 'Сохраненных версий этой записи нет.',
 
-'save_revision' => 
+'save_revision' =>
 'Сохранить версию',
 
-'revision_saved' => 
+'revision_saved' =>
 'Версия сохранена',
 
-'multi_entries_updated' => 
+'multi_entries_updated' =>
 'Записи обновлены',
 
-'multi_entry_editor' => 
+'multi_entry_editor' =>
 'Редактор нескольких записей',
 
-'unauthorized_to_edit' => 
+'unauthorized_to_edit' =>
 'Редактирование выбранных записей не разрешено.',
 
-'today' => 
+'today' =>
 'Сегодня',
 
-'edit_selected' => 
+'edit_selected' =>
 'Редактировать отмеченные',
 
-'confirm_exit' => 
+'confirm_exit' =>
 'При выходе, все введенные данные будут потеряны. Вы уверены, что хотите выйти?',
 
-'delete_selected' => 
+'delete_selected' =>
 'Удалить отмеченные',
 
-'forum' => 
+'forum' =>
 'Форум',
 
-'forum_topic_id' => 
+'forum_topic_id' =>
 'ID темы форума',
 
-'forum_topic_id_info' => 
+'forum_topic_id_info' =>
 'Это поле позволяет связать запись блога с темой в форуме.',
 
-'forum_topic_id_exitsts' => 
+'forum_topic_id_exitsts' =>
 'Если тема в форуме уже существует, и Вы хотели бы связать ее с записью в блоге, введите номер ID этой темы, а поле выше оставьте незаполненным.',
 
-'forum_title' => 
+'forum_title' =>
 'Заголовок темы форума',
 
-'forum_body' => 
+'forum_body' =>
 'Текст темы форума',
 
-'forums_unavailable' => 
+'forums_unavailable' =>
 'Нет доступных форумов для публикации',
 
-'view_comments' => 
+'view_comments' =>
 'Просмотр комментариев',
 
-'live_look' => 
+'live_look' =>
 'На сайте',
 
-'delete_comments_confirm' => 
+'delete_comments_confirm' =>
 'Вы действительно хотите навсегда удалить эти комментарии?',
 
-'comment_updated' => 
+'comment_updated' =>
 'Комментарий обновлен',
 
-'field_blank' => 
+'field_blank' =>
 'Вы оставили поле незаполненным.',
 
-'select_action' => 
+'select_action' =>
 'Выбрать опции сохранения',
 
-'image_location' => 
+'image_location' =>
 'Место изображения',
 
-'file_uploaded' => 
+'file_uploaded' =>
 'Файл загружен:',
 
-'place_file' => 
+'place_file' =>
 'Поместить файл',
 
-'place_image' => 
+'place_image' =>
 'Поместить изображение',
 
-'place_file_close' => 
+'place_file_close' =>
 'Поместить файл и закрыть окно',
 
-'place_image_close' => 
+'place_image_close' =>
 'Поместить изображение и закрыть окно',
 
-'embedded' => 
+'embedded' =>
 'Внедрено в запись',
 
-'popup_link' => 
+'popup_link' =>
 'Ссылка на всплывающее изображение',
 
-'popup_thumb' => 
+'popup_thumb' =>
 'Ссылка на всплывающую миниатюру',
 
-'thumb_info' => 
+'thumb_info' =>
 'Если Вы не хотите изменять размеры или создавать миниатюру, пропустите опции ниже',
 
-'check_spelling' => 
+'check_spelling' =>
 'Проверить орфографию',
 
-'spell_check' => 
+'spell_check' =>
 'Проверка орфографии',
 
-'no_spellcheck_lib' => 
+'no_spellcheck_lib' =>
 'Ошибка: Не установлена библиотека Pspell.',
 
-'html_glossary' => 
+'html_glossary' =>
 'Глоссарий',
 
-'no_glossary' => 
+'no_glossary' =>
 'Глоссарий не существует',
 
-'no_smileys' => 
+'no_smileys' =>
 'Невозможно найти смайлы',
 
-'image_link' => 
+'image_link' =>
 'Ссылка изображения',
 
-'font' => 
+'font' =>
 'Шрифт',
 
-'heading_1' => 
+'heading_1' =>
 'Заголовок 1',
 
-'heading_2' => 
+'heading_2' =>
 'Заголовок 2',
 
-'heading_3' => 
+'heading_3' =>
 'Заголовок 3',
 
-'heading_4' => 
+'heading_4' =>
 'Заголовок 4',
 
-'heading_5' => 
+'heading_5' =>
 'Заголовок 5',
 
-'paragraph' => 
+'paragraph' =>
 'Абзац',
 
-'blockquote' => 
+'blockquote' =>
 'Цитата',
 
-'pre' => 
+'pre' =>
 'Предформатированный',
 
-'div' => 
+'div' =>
 'Div',
 
-'span' => 
+'span' =>
 'Span',
 
-'anchor' => 
+'anchor' =>
 'Гиперссылка',
 
-'clear' => 
+'clear' =>
 'Очистить',
 
-'bold' => 
+'bold' =>
 'Жирный',
 
-'italic' => 
+'italic' =>
 'Курсив',
 
-'unordered_list' => 
+'unordered_list' =>
 'Неупорядоченный список',
 
-'ordered_list' => 
+'ordered_list' =>
 'Упорядоченный список',
 
-'horizontal_rule' => 
+'horizontal_rule' =>
 'Горизонтальная линия',
 
-'nonbr_space' => 
+'nonbr_space' =>
 'Неразрывный пробел',
 
-'line_break' => 
+'line_break' =>
 'Перенос строки',
 
-'publish_form' => 
+'publish_form' =>
 'Форма публикации',
 
-'entry_date' => 
+'entry_date' =>
 'Дата публикации',
 
-'url_title_is_numeric' => 
+'url_title_is_numeric' =>
 'Числа не могут использоваться в качестве URL-заголовков',
 
-'unable_to_create_url_title' => 
+'unable_to_create_url_title' =>
 'Невозможно создать допустимый URL-заголовок для этой записи',
 
-'select_all' => 
+'select_all' =>
 'Выбрать/Отменить все',
 
-'results' => 
+'results' =>
 'результатов',
 
-'close_for_no_change' => 
+'close_for_no_change' =>
 'Для отмены закройте это окно.',
 
-'date_calendar' => 
+'date_calendar' =>
 'Календарь дат',
 
-'comment_expiration_date' => 
+'comment_expiration_date' =>
 'Период для комментариев',
 
-'invalid_comment_date_formatting' => 
+'invalid_comment_date_formatting' =>
 'Указанная Вами дата истечения периода комментариев введена в неправильном формате (год-месяц-день час:минута).  Если период отображения комментариев не ограничен - оставьте поле незаполненным.',
 
-'keywords' => 
+'keywords' =>
 'Ключевые слова',
 
-'title_only' => 
+'title_only' =>
 'Искать только в заголовках',
 
-'title_and_body' => 
+'title_and_body' =>
 'Искать в названиях и тексте',
 
-'title_body_comments' => 
+'title_body_comments' =>
 'Искать в заголовках, тексте и комментариях',
 
-'exact_match' => 
+'exact_match' =>
 'Точное соответствие',
 
-'search' => 
+'search' =>
 'Найти',
 
-'filter_by_channel' => 
+'filter_by_channel' =>
 'Фильтровать по каналу',
 
-'filter_by_category' => 
+'filter_by_category' =>
 'Фильтр по категориям',
 
-'filter_by_status' => 
+'filter_by_status' =>
 'Фильтр по статусу',
 
-'filter_by_author' => 
+'filter_by_author' =>
 'Фильтровать по автору',
 
-'status_changed' => 
+'status_changed' =>
 'Статус изменен',
 
-'publish' => 
+'publish' =>
 'Публиковать',
 
-'content_publish' => 
+'content_publish' =>
 'Публиковать',
 
-'content' => 
+'content' =>
 'Контент',
 
-'no_channel_exists' => 
+'no_channel_exists' =>
 'Вы пытаетесь попасть в Канал, которого не существует.',
 
-'no_entries_matching_that_criteria' => 
+'no_entries_matching_that_criteria' =>
 'Записей, соответствующих указанным Вами критериям, нет',
 
-'no_entries_exist' => 
+'no_entries_exist' =>
 'В этом блоге записей нет',
 
-'select_channel_to_post_in' => 
+'select_channel_to_post_in' =>
 'Выберите канал, в который будете публиковать',
 
-'select_channel_to_edit' => 
+'select_channel_to_edit' =>
 'Выберите канал для просмотра',
 
-'this_entry_will_appear_in' => 
+'this_entry_will_appear_in' =>
 'Эта запись будет опубликована в:',
 
-'unauthorized_for_this_channel' => 
+'unauthorized_for_this_channel' =>
 'Вы не авторизованы для публикации в данном канале',
 
-'unauthorized_for_any_channels' => 
+'unauthorized_for_any_channels' =>
 'Вы не авторизованы для публикации записей в канале',
 
-'unauthorized_to_delete_others' => 
+'unauthorized_to_delete_others' =>
 'Вы можете удалять только те записи, автором которых являетесь сами',
 
-'unauthorized_to_delete_self' => 
+'unauthorized_to_delete_self' =>
 'Вы не можете удалять собственные записи',
 
-'channel' => 
+'channel' =>
 'Канал',
 
-'channels' => 
+'channels' =>
 'Каналы',
 
-'pages' => 
+'pages' =>
 'Страницы',
 
-'new_entry' => 
+'new_entry' =>
 'Новая запись',
 
-'files' => 
+'files' =>
 'Файлы',
 
-'tabs' => 
+'tabs' =>
 'Вкладки',
 
-'add_tab' => 
+'add_tab' =>
 'Добавить вкладку',
 
-'tab_name' => 
+'tab_name' =>
 'Название вкладки',
 
-'tab_name_required' => 
+'tab_name_required' =>
 'Выберите название для вашей вкладки.',
 
-'duplicate_tab_name' => 
+'duplicate_tab_name' =>
 'Вкладка с таким названием уже существует.',
 
-'illegal_characters' => 
+'illegal_characters' =>
 'Указанное Вами название блога может состоять только из букв, цифр, пробелов, подчеркиваний и дефисов',
 
-'authors' => 
+'authors' =>
 'Авторы',
 
-'fields' => 
+'fields' =>
 'Поля',
 
-'publish_layout' => 
+'publish_layout' =>
 'Создать макет',
 
-'save_layout' => 
+'save_layout' =>
 'Сохранить макет',
 
-'remove_layout' => 
+'remove_layout' =>
 'Удалить макет',
 
-'preview_layout' => 
+'preview_layout' =>
 'Предварительный просмотр макета',
 
-'refresh_layout' => 
+'refresh_layout' =>
 'Обновить макет',
 
-'tab_count_zero' => 
+'tab_count_zero' =>
 'Чтобы оставить поля - необходима вкладка.',
 
-'no_member_groups' => 
+'no_member_groups' =>
 'Нет доступных групп',
 
-'layout_removed' => 
+'layout_removed' =>
 'Макет удалён.',
 
-'tab_has_req_field' => 
+'tab_has_req_field' =>
 'Вкладка не может быть удалена, пока содержит следующие обязательныйе поля:',
 
-'layout_group' => 
+'layout_group' =>
 'Группа',
 
-'choose_layout_group_preview' => 
+'choose_layout_group_preview' =>
 'Выделите группу макетов, которые хотите просмотреть.',
 
-'layout_save_warning' => 
+'layout_save_warning' =>
 'Макет сохранён без изменений.',
 
-'autosave_success' => 
+'autosave_success' =>
 'Запись сохранена автоматически',
 
-'autosave_title' => 
+'autosave_title' =>
 'Доступные сохранения',
 
-'autosave_warning_1' => 
+'autosave_warning_1' =>
 'ExpressionEngine сохранил данные этой записи прежде чем это сделали Вы.',
 
-'autosave_warning_2' => 
+'autosave_warning_2' =>
 'Сохраненные данные удаляются, когда запись сохраняется или повторно сохраняется.',
 
-'autosave_warning_3' => 
+'autosave_warning_3' =>
 'Вы хотите загрузить сейчас эти данные?',
 
-'add_author' => 
+'add_author' =>
 'Добавить автора',
 
-'add_author_desc' => 
+'add_author_desc' =>
 'Групповые настройки переопределяют отдельные настройки, и некоторые пользователи не могут быть удалены из списка автора.',
 
-'no_potential_authors' => 
+'no_potential_authors' =>
 'Нет доступных участников, чтобы добавить к списку автора.',
 
-'hide_toolbar' => 
+'hide_toolbar' =>
 'Скрыть инструменты',
 
-'show_toolbar' => 
+'show_toolbar' =>
 'Показать инструменты',
 
-'button_mode' => 
+'button_mode' =>
 'Режим кнопок:',
 
-'guided' => 
+'guided' =>
 'С пояснениями',
 
-'normal' => 
+'normal' =>
 'Обычный',
 
-'view_entry' => 
+'view_entry' =>
 'Просмотр записи',
 
-'preview_entry' => 
+'preview_entry' =>
 'Предпросмотр записи',
 
-'edit_entry' => 
+'edit_entry' =>
 'Редактировать запись',
 
-'edit_channel_entries' => 
+'edit_channel_entries' =>
 'Изменить канал записи',
 
-'continue_editing' => 
+'continue_editing' =>
 'Продолжить редактирование',
 
-'entry_status' => 
+'entry_status' =>
 'Статус записи',
 
-'status' => 
+'status' =>
 'Статус',
 
-'comments' => 
+'comments' =>
 'Коммент.',
 
-'open' => 
+'open' =>
 'Открыто',
 
-'close' => 
+'close' =>
 'Закрыть',
 
-'closed' => 
+'closed' =>
 'Закрыто',
 
-'options' => 
+'options' =>
 'Опции',
 
-'sticky' => 
+'sticky' =>
 'Показывать запись в начале',
 
-'allow_comments' => 
+'allow_comments' =>
 'Разрешить комментарии',
 
-'date' => 
+'date' =>
 'Дата',
 
-'start_date' => 
+'start_date' =>
 'Начало',
 
-'end_date' => 
+'end_date' =>
 'Конец',
 
-'expiration_date' => 
+'expiration_date' =>
 'Окончание публикации',
 
-'invalid_date_formatting' => 
+'invalid_date_formatting' =>
 'Указанная Вами дата имеет неверный формат (год-месяц-день час:минута)',
 
-'date_outside_of_range' => 
+'date_outside_of_range' =>
 'Указанная Вами дата находится за пределами допустимых значений (1902 &#8211; 2037).',
 
-'category' => 
+'category' =>
 'Категория',
 
-'categories' => 
+'categories' =>
 'Категории',
 
-'no_categories' => 
+'no_categories' =>
 'В этом блоге нет доступных категорий.',
 
-'title' => 
+'title' =>
 'Заголовок',
 
-'url_title' => 
+'url_title' =>
 'URL-наименование',
 
-'author' => 
+'author' =>
 'Автор',
 
-'newline_format' => 
+'newline_format' =>
 'Форматирование:',
 
-'none' => 
+'none' =>
 'Отключено',
 
-'xhtml' => 
+'xhtml' =>
 'XHTML',
 
-'auto_br' => 
+'auto_br' =>
 'Автомат. &lt;br /&gt;',
 
-'link' => 
+'link' =>
 'Ссылка',
 
-'image' => 
+'image' =>
 'Изображение',
 
-'email' => 
+'email' =>
 'E-mail',
 
-'upload' => 
+'upload' =>
 'Загрузить',
 
-'upload_file' => 
+'upload_file' =>
 'Загрузить файл',
 
-'file_upload' => 
+'file_upload' =>
 'Загрузка файла',
 
-'upload_dir_choose' => 
+'upload_dir_choose' =>
 'Выберите директорию для загрузки',
 
-'upload_to' => 
+'upload_to' =>
 'Загружено в %s',
 
-'emoticons' => 
+'emoticons' =>
 'Смайлы',
 
-'choose_a_destination_for_emoticon' => 
+'choose_a_destination_for_emoticon' =>
 'Выберите место вставки смайла',
 
-'click_emoticon' => 
+'click_emoticon' =>
 'Нажмите на изображение для размещения его в Вашей записи',
 
-'no_emoticons' => 
+'no_emoticons' =>
 'Невозможно найти место размещения смайлов',
 
-'close_all' => 
+'close_all' =>
 'Закрыть все',
 
-'missing_title' => 
+'missing_title' =>
 'У записи должен быть заголовок.',
 
-'there_are_required_fields1' => 
+'there_are_required_fields1' =>
 'Вы ',
 
-'there_are_required_fields2' => 
+'there_are_required_fields2' =>
 'не заполнили обязательные поля.',
 
-'missing_date' => 
+'missing_date' =>
 'Запись должна иметь дату.',
 
-'title_not_unique' => 
+'title_not_unique' =>
 'Запись с таким заголовком уже существует.  Заголовки не могут повторяться.',
 
-'url_title_not_unique' => 
+'url_title_not_unique' =>
 'Запись с таким URL-наименованием уже существует.  URL-наименования должны быть уникальными.',
 
-'entry_has_been_added' => 
+'entry_has_been_added' =>
 'Новая запись отправлена',
 
-'entry_has_been_updated' => 
+'entry_has_been_updated' =>
 'Запись обновлена',
 
-'click_to_view_your_entry' => 
+'click_to_view_your_entry' =>
 'Нажмите для просмотра записи',
 
-'view' => 
+'view' =>
 'Просмотр',
 
-'edit_this_entry' => 
+'edit_this_entry' =>
 'Редактировать эту запись',
 
-'view_filtered' => 
+'view_filtered' =>
 'Вернитесь к фильтруемым записям',
 
-'publish_another_entry' => 
+'publish_another_entry' =>
 'Публиковать ещё одну запись',
 
-'autosaved_entries' => 
+'autosaved_entries' =>
 'Автосохраненные записи',
 
-'autosaved' => 
+'autosaved' =>
 'Автосохранение',
 
-'original' => 
+'original' =>
 'Оригинальный',
 
-'discard_autosave' => 
+'discard_autosave' =>
 'Сбросить автосохраненные данные',
 
-'date_range' => 
+'date_range' =>
 'Диапазон дат',
 
-'past_day' => 
+'today' =>
+'Сегодня',
+'past_day' =>
 'Последние 24 часа',
 
-'past_week' => 
+'past_week' =>
 'За последнюю неделю',
 
-'past_month' => 
+'past_month' =>
 'За последние 30 дней',
 
-'past_six_months' => 
+'past_six_months' =>
 'За последние полгода',
 
-'past_year' => 
+'past_year' =>
 'За последние 365 дней',
 
-'any_date' => 
+'any_date' =>
 'Все',
 
-'results_per_page' => 
+'results_per_page' =>
 'Результатов на странице',
 
-'order' => 
+'order' =>
 'Порядок',
 
-'ascending' => 
+'ascending' =>
 'Старые в начале',
 
-'descending' => 
+'descending' =>
 'Новые в начале',
 
-'alpha' => 
+'alpha' =>
 'По алфавиту',
 
-'delete_confirm' => 
+'delete_confirm' =>
 'Подтверждение удаления',
 
-'delete_entry_confirm' => 
+'delete_entry_confirm' =>
 'Вы действительно хотите навсегда удалить эту запись?',
 
-'delete_entries_confirm' => 
+'delete_entries_confirm' =>
 'Вы действительно хотите навсегда удалить эти записи?',
 
-'entries_deleted' => 
+'entries_deleted' =>
 'Удалено',
 
-'html_buttons_no_cursor' => 
+'html_buttons_no_cursor' =>
 'Для использования этих кнопок необходимо сначала поместить курсор в текстовое поле.',
 
-'html_buttons_url_text' => 
+'html_buttons_url_text' =>
 'Введите URL ссылки',
 
-'html_buttons_webpage_text' => 
+'html_buttons_webpage_text' =>
 'Введите название ссылки',
 
-'html_buttons_title_text' => 
+'html_buttons_title_text' =>
 'По желанию: введите атрибут названия',
 
-'html_buttons_image_text' => 
+'html_buttons_image_text' =>
 'Введите URL изображения',
 
-'html_buttons_email_text' => 
+'html_buttons_email_text' =>
 'Введите E-mail',
 
-'html_buttons_email_title' => 
+'html_buttons_email_title' =>
 'Введите название ссылки (или оставьте пустым, если хотите использовать адрес E-mail в качестве названия.)',
 
-'html_buttons_enter_text' => 
+'html_buttons_enter_text' =>
 'Введите текст для форматирования',
 
-'warning' => 
+'warning' =>
 'Предупреждение',
 
-'file_exists' => 
+'file_exists' =>
 'Файл с таким именем уже существует',
 
-'file_exists_warning' => 
+'file_exists_warning' =>
 'Предупрежедение! Файл существует.',
 
-'actions' => 
+'actions' =>
 'Действия',
 
-'action_delete' => 
+'action_delete' =>
 'Удалить',
 
-'overwrite_instructions' => 
+'overwrite_instructions' =>
 'Вы можете выбрать либо новое имя файла (и файл будет переименован), либо отправить форму с тем же названием (в этом случае существующий файл будет заменен новым).',
 
-'select_destination_dir' => 
+'select_destination_dir' =>
 'Выберите директорию для файла',
 
-'file_manager' => 
+'file_manager' =>
 'Файловый менеджер',
 
-'file_type' => 
+'file_type' =>
 'Тип файла',
 
-'file_saved' => 
+'file_saved' =>
 'Файл сохранен',
 
-'non_image' => 
+'image' =>
+'Изображение',
+'non_image' =>
 'Не изображение',
 
-'success' => 
+'success' =>
 'Успешно!',
 
-'you_have_uploaded' => 
+'you_have_uploaded' =>
 'Загружен файл:',
 
-'choose_a_destination' => 
+'choose_a_destination' =>
 'В каком поле вставить этот файл?',
 
-'no_entry_fields' => 
+'no_entry_fields' =>
 'В этом блоге доступных полей нет.',
 
-'no_comments' => 
+'no_comments' =>
 'Нет комментариев/трекбэков',
 
-'posted_by' => 
+'posted_by' =>
 'Автор:',
 
-'located_in' => 
+'located_in' =>
 'Местонахождение:',
 
-'comment_date' => 
+'comment_date' =>
 'Дата:',
 
-'comment_email' => 
+'comment_email' =>
 'E-mail:',
 
-'comment_url' => 
+'comment_url' =>
 'URL:',
 
-'comment_action' => 
+'comment_action' =>
 'Действие:',
 
-'comment_ip' => 
+'comment_ip' =>
 'IP:',
 
-'channel_name' => 
+'channel_name' =>
 'Имя канала',
 
-'comment' => 
+'comment' =>
 'Комментарий',
 
-'missing_comment' => 
+'missing_comment' =>
 'Комментарий отсутствует',
 
-'edit_comment' => 
+'edit_comment' =>
 'Редактировать комментарий',
 
-'delete_comment' => 
+'delete_comment' =>
 'Удалить комментарии',
 
-'comment_deleted' => 
+'comment_deleted' =>
 'Комментарии удалены',
 
-'delete_comment_confirm' => 
+'comment_updated' =>
+'Комментарий обновлен',
+
+'status_changed' =>
+'Статус изменен',
+
+'delete_comment_confirm' =>
 'Вы действительно хотите безвозвратно удалить этот комментарий?',
 
-'name' => 
+'name' =>
 'Имя',
 
-'url' => 
+'url' =>
 'URL',
 
-'location' => 
+'location' =>
 'Местонахождение',
 
-'continue' => 
+'continue' =>
 'Продолжить',
 
-'image_options' => 
+'image_options' =>
 'Опции изображений',
 
-'create_popup' => 
+'create_popup' =>
 'Создать всплывающее окно для изображения?',
 
-'create_thumb' => 
+'create_thumb' =>
 'Создать миниатюру изображения',
 
-'constrain_proportions' => 
+'constrain_proportions' =>
 'Сохранять пропорции',
 
-'thumb_settings' => 
+'thumb_settings' =>
 'Параметры изображения',
 
-'choose_a_destination_for_thumb' => 
+'choose_a_destination_for_thumb' =>
 'В каком поле должно быть вставлено изображение?',
 
-'do_not_place_file' => 
+'do_not_place_file' =>
 'Не размещать файл в записи',
 
-'image_size_not_different' => 
+'image_size_not_different' =>
 'Указанные Вами ширина и высота совпадают с размерами оригинала.',
 
-'width' => 
+'width' =>
 'Ширина',
 
-'height' => 
+'height' =>
 'Высота',
 
-'pixels' => 
+'pixels' =>
 'Пиксел.',
 
-'percent' => 
+'percent' =>
 'Процентов',
 
-'resize_image' => 
+'resize_image' =>
 'Изменить размеры',
 
-'return_to_publish' => 
+'return_to_publish' =>
 'Вернуться к публикации',
 
-'create_thumb_copy' => 
+'create_thumb_copy' =>
 'Создать копию',
 
-'resize_original' => 
+'resize_original' =>
 'Изм. размеры исходного изображения',
 
-'thumb_instructions' => 
+'thumb_instructions' =>
 'При желании можно изменить размеры загруженной картинки, либо создать отдельную миниатюру.',
 
-'thumbnail_created' => 
+'thumbnail_created' =>
 'Миниатюра создана',
 
-'image_resized' => 
+'image_resized' =>
 'Размеры изображения изменены',
 
-'close_window' => 
+'close_window' =>
 'Закрыть окно',
 
-'close_selected' => 
+'close_selected' =>
 'Закрыть отмеченные',
 
-'open_selected' => 
+'open_selected' =>
 'Открыть отмеченные',
 
-'instructions' => 
+'instructions' =>
 'Инструкции: ',
 
-'choose_entry_for_comment_move' => 
+'choose_entry_for_comment_move' =>
 'Выберите запись для перемещения комментариев',
 
-'move_comments_to_entry' => 
+'move_comments_to_entry' =>
 'Переместить комментарии в запись',
 
-'move_selected' => 
+'move_selected' =>
 'Переместить выбранные',
 
-'choose_only_one_entry' => 
+'choose_only_one_entry' =>
 'Необходимо выбрать только одну запись',
 
-'add_category' => 
+'add_category' =>
 'Добавить категорию',
 
-'add_categories' => 
+'add_categories' =>
 'Добавить категории',
 
-'remove_categories' => 
+'remove_categories' =>
 'Удалить категории',
 
-'no_autosave_data' => 
+'no_autosave_data' =>
 'Нет автосохраненных записей',
 
-'autosave_data_available' => 
+'autosave_data_available' =>
 'автосохранение данных доступно',
 
-'no_category_group_match' => 
+'autosaved_entries' =>
+'Автосохранение записей',
+
+'no_category_group_match' =>
 'У этих записей отсутствует общая группа категорий.  Выберите записи, у которых есть по крайней мере одна общая группа категорий.',
 
-'multi_entry_category_editor' => 
+'multi_entry_category_editor' =>
 'Редактор категорий нескольких записей',
 
-'url_only' => 
+'url_only' =>
 'Только URL',
 
-'no_channels' => 
+'no_channels' =>
 'Вы не имеете каналов принадлажащих Вам на этом сайте.',
 
-'no_channels_exist' => 
+'no_channels_exist' =>
 'Пока нет каналов',
 
-'selection_required' => 
+'selection_required' =>
 'Вы должны сделать по крайней мере один выбор',
 
-'no_valid_selections' => 
+'no_valid_selections' =>
 'Не сделан ни один выбор',
 
-'entry_title_with_title' => 
+'entry_title_with_title' =>
 'Заголовок записи: \'%title\'',
 
-'invalid_author' => 
+'invalid_author' =>
 'Выбран недопустимый автор.',
 
-'show_all' => 
+'show_all' =>
 'Показать все',
 
-'add_new_html_button' => 
+'add_new_html_button' =>
 'Добавить новую HTML кнопку',
 
-'show' => 
+'show' =>
 'Показать',
 
-'hide' => 
+'hide' =>
 'Скрыть',
 
-'write_mode' => 
+'write_mode' =>
 'Режим писателя',
 
-'show_tools' => 
+'show_tools' =>
 'Показать инструменты',
 
-'wm_discard_changes' => 
+'wm_discard_changes' =>
 'Сбросить изменения',
 
-'wm_publish_to_field' => 
+'wm_publish_to_field' =>
 'Опубликовать в поле',
 
-'edit_modes' => 
+'edit_modes' =>
 'Изменить режим',
 
-'resize' => 
+'resize' =>
 'Изменить размер',
 
-'crop' => 
+'crop' =>
 'Вырезать',
 
-'resize_width' => 
+'resize_width' =>
 'Ширина',
 
-'resize_height' => 
+'resize_height' =>
 'Высота',
 
-'crop_width' => 
+'crop_width' =>
 'Ширина',
 
-'crop_height' => 
+'crop_height' =>
 'Высота',
 
-'crop_x' => 
+'crop_x' =>
 'X',
 
-'crop_y' => 
+'crop_y' =>
 'Y',
 
-'rotate' => 
+'rotate' =>
 'Вращать',
 
-'rotate_90r' => 
+'rotate_90r' =>
 '90&#176; Право',
 
-'rotate_90l' => 
+'rotate_90l' =>
 '90&#176; Лево',
 
-'rotate_180' => 
+'rotate_180' =>
 '180&#176',
 
-'rotate_flip_vert' => 
+'rotate_flip_vert' =>
 'Перевернуть вертикально',
 
-'rotate_flip_hor' => 
+'rotate_flip_hor' =>
 'Перевернуть горизонтально',
 
-'maintain_ratio' => 
+'maintain_ratio' =>
 'Поддерживаемый формат изображения',
 
-'width_needed' => 
+'width_needed' =>
 'Высота и/или ширина должны быть выбраны.',
 
-'edit_image' => 
+'edit_image' =>
 'Редактировать изображение',
 
-'layout_success' => 
+'layout_success' =>
 'Макет сохранён.',
 
-'layout_failure' => 
+'layout_failure' =>
 'Проблемма с сохранением расположения.',
 
-'layout_failure_required' => 
+'layout_failure_required' =>
 'Следующие поля обязательныи не могут быть скрыты: ',
 
-'layout_failure_invalid_name' => 
+'layout_failure_invalid_name' =>
 'У следующих областей есть недопустимые символы в кратких названиях: ',
 
-'layout_preview' => 
+'layout_preview' =>
 'Вы в предварительном просмотре для публикации',
 
-'no_entry_to_update' => 
+'no_entry_to_update' =>
 'Вы попытались обновить запись, которая не существует.',
 
-'invalid_date' => 
+'invalid_date' =>
 'Отправленная вами дана не верная.',
 
-'comment_moved' => 
+'fields' =>
+'Поля',
+
+'comment_moved' =>
 'Комментарий перемещен',
 
-'comments_moved' => 
+'comments_moved' =>
 'Комментарии перемещены',
 
-'search_entries' => 
+'search_entries' =>
 'Искать в заголовках и записях',
 
-'unable_to_load_tab' => 
+'unable_to_load_tab' =>
 'Невозможно загрузить требуемый файл вкладки: %s',
 
-'unable_to_load_field_type' => 
-'Не удаётся загрузить требуемый файл типа поля: %s.<br />Подтвердите что файл типа поля находятся в директории expressionengine/third_party/',
+'unable_to_load_field_type' =>
+'Невозможно загрузить требуемый файл nbпа поля:  %s.<br />
+Проверьте что файл типа поля находится в директории expressionengine/third_party/',
 
-'no_templates' => 
+'no_templates' =>
 'Нет шаблонов',
 
-'add_file' => 
+'add_file' =>
 'Добавить файл',
 
-'remove_file' => 
+'remove_file' =>
 'Удалить файл',
 
-'directory_no_access' => 
+'directory_no_access' =>
 'У Вас нет доступа к каталогу указанным в этом поле',
 
-'invalid_selection' => 
+'invalid_selection' =>
 'Некорректное выделение',
 
-'field_not_editable' => 
+'field_not_editable' =>
 'Это поле не может быть изменено.',
 
-'screen_name' => 
+'screen_name' =>
 'Псевдоним',
 
-'member_group' => 
+'member_group' =>
 'Группа участников',
 
-'menu_publish' => 
+'menu_publish' =>
 'Публиковать',
 
-'menu_date' => 
+'menu_date' =>
 'Дата',
 
-'menu_pages' => 
+'menu_pings' =>
+'Пинги',
+
+'menu_pages' =>
 'Страницы',
 
-'menu_options' => 
+'menu_options' =>
 'Опции',
 
-'menu_categories' => 
+'menu_categories' =>
 'Категории',
 
-'menu_forum' => 
+'menu_forum' =>
 'Форумы',
-
-'rel_ft_no_entries' => 
-'Нет записей',
-
-'translate' => 
-'Обновить',
+'rel_ft_no_entries'			=> 'Нет записей',
 
 ''=>''
 );
 
-// End of File
+
+/* End of file publish_lang.php */
+/* Location: ./system/expressionengine/language/russian/publish_lang.php */

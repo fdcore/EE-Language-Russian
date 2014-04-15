@@ -27,7 +27,7 @@ $lang = array(
 'Расширение',
 
 'rte_tool' => 
-'Инструменты редактора',
+'Инструменты тестового редактора',
 
 'addons_accessories' => 
 'Аксессуары',
@@ -83,6 +83,12 @@ $lang = array(
 'extensions_disabled' => 
 'Расширения отключены',
 
+'ext_enabled_short' => 
+'Включено',
+
+'ext_disabled_short' => 
+'Отключено',
+
 'delete_fieldtype_confirm' => 
 'Вы уверены что хотите удалить тип поля?',
 
@@ -90,7 +96,7 @@ $lang = array(
 'Удалить тип поля',
 
 'data_will_be_lost' => 
-'Все данные, связанные с этим типом поля, включая все ассоциации данных каналов, будут безвозвратно удалены!',
+'Все данные связанные с этим типом поля, включая все связанные данные каналов, будут безвозвратно удалены!',
 
 'global_settings_saved' => 
 'Настройки сохранены',
@@ -106,6 +112,9 @@ $lang = array(
 
 'required_by' => 
 'Требуется:',
+
+'extensions_disabled_warning' => 
+'In order to install this add-on you need to enable extensions. Do you want to enable extensions?',
 
 'available_to_member_groups' => 
 'Доступные для групп участников',
@@ -146,10 +155,7 @@ $lang = array(
 'no_extension_id' => 
 'Не определено расширение',
 
-'translate' => 
-'Обновить',
-
-''=>''
-);
-
-// End of File
+// IGNORE
+''=>'');
+/* End of file addons_lang.php */
+/* Location: ./system/expressionengine/language/russian/addons_lang.php */

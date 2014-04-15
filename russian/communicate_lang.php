@@ -218,10 +218,7 @@ $lang = array(
 'off' => 
 'выкл.',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
-
-// End of File
+/* End of file communicate_lang.php */
+/* Location: ./system/expressionengine/language/russian/communicate_lang.php */

@@ -164,10 +164,8 @@ $lang = array(
 'recount_prefs' => 
 'Пересчитать настройки',
 
-'translate' => 
-'Обновить',
-
 ''=>''
 );
 
-// End of File
+/* End of file tools_lang.php */
+/* Location: ./system/expressionengine/language/russian/tools_lang.php */

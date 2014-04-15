@@ -224,10 +224,8 @@ $lang = array(
 'searched_for' => 
 'Поиск по:',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
 
-// End of File
+/* End of file search_lang.php */
+/* Location: ./system/expressionengine/language/russian/search_lang.php */

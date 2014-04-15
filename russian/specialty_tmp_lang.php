@@ -77,12 +77,6 @@ $lang = array(
 'mbr_activation_instructions_desc' => 
 'Этот шаблон определяет вид сообщения с инструкциями по подтверждению регистрации на сайте',
 
-'reset_password_notification' => 
-'Уведомление об изменении пароля',
-
-'reset_password_notification_desc' => 
-'Этот шаблон содержит инструкции по изменению пароля',
-
 'validated_member_notify' => 
 'Уведомление об активации нового пользователя',
 
@@ -134,10 +128,8 @@ $lang = array(
 'message_body' => 
 'Тело сообщения Email',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
 
-// End of File
+/* End of file specialty_tmp_lang.php */
+/* Location: ./system/expressionengine/language/russian/specialty_tmp_lang.php */

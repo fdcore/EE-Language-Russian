@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------
+// Modules
+//----------------------------
 
 'module_name' => 
 'Название модуля',
@@ -74,10 +77,8 @@ $lang = array(
 'requested_page_not_found' => 
 'Запрашиваемый модуль не найден.',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
 
-// End of File
+/* End of file modules_lang.php */
+/* Location: ./system/expressionengine/language/russian/modules_lang.php */

@@ -1,12 +1,20 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'emoticon_module_name' => 
 'Смайлы',
 
 'emoticon_module_description' => 
 'Модуль смайлов',
+
+
+//----------------------------------------
+// Emoticon language lines
+//----------------------------------------
 
 'emoticon_heading' => 
 'Смайлы',
@@ -26,10 +34,10 @@ $lang = array(
 'emoticon_alt' => 
 'Тег Alt',
 
-'translate' => 
-'Update',
+
 
 ''=>''
 );
 
-// End of File
+/* End of file emoticon_lang.php */
+/* Location: ./system/expressionengine/language/russian/emoticon_lang.php */

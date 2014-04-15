@@ -1,12 +1,18 @@
 <?php
+
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'channel_module_name' => 
 'Канал',
 
 'channel_module_description' => 
 'Модуль управления каналами',
+
+//----------------------------------------
 
 'channel_no_preview_template' => 
 'Шаблон предпросмотра не указан в Вашем теге',
@@ -20,10 +26,9 @@ $lang = array(
 'channel_no_action_found' => 
 'Невозможно загрузить ресурсы, необходимые для создания формы ввода записи',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file channel_lang.php */
+/* Location: ./system/expressionengine/language/russian/channel_lang.php */

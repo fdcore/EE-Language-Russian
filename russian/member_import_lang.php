@@ -68,9 +68,6 @@ $lang = array(
 'convert_from_delimited_blurb' => 
 'Позволяет создать XML-файл участника ExpressionEngine из текстового файла (с разделителями) другой программы',
 
-'daylight_savings' => 
-'Летнее время',
-
 'auto_custom_field' => 
 'Создать настраиваемое поле',
 
@@ -97,9 +94,6 @@ $lang = array(
 
 'download' => 
 'Загрузить XML-файл',
-
-'dst_enabled' => 
-'Летнее время на дату записи',
 
 'duplicate_email' => 
 'Копия E-mail: ',
@@ -175,7 +169,7 @@ $lang = array(
 
 'timezone' =>
 'Часовой пояс по умолчанию',
-'member_fields' =>
+'member_fields' => 
 'Поля участника',
 
 'member_id_warning' => 
@@ -241,8 +235,20 @@ $lang = array(
 'tab' => 
 'Вкладка',
 
+"date_format" =>
+"Формат даты",
+
 'time_format' => 
-'Формат времени по умолчанию',
+'Формат времени',
+
+"24_hour" =>
+"24 часа",
+
+"12_hour" =>
+"12 часов с AM/PM",
+
+"include_seconds" =>
+"Включая секунды в формате времени",
 
 'timezones' => 
 'Часовой пояс по умолчанию',
@@ -292,10 +298,9 @@ $lang = array(
 'is_required' => 
 'Обязаталельно',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file member_import_lang.php */
+/* Location: ./system/expressionengine/language/russian/member_import_lang.php */

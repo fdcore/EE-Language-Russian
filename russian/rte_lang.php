@@ -11,9 +11,6 @@ $lang = array(
 'nav_rte_settings' => 
 'Настройки текст. ред.',
 
-'nav_rte_settings_short_desc' => 
-'Управление иструментами текстового редактора и наборами инструментов',
-
 'rte_settings' => 
 'Настройки сайта',
 
@@ -38,6 +35,7 @@ $lang = array(
 'my_toolset' => 
 'Мой набор инструментов',
 
+// Snippets
 'no' => 
 'Нет',
 
@@ -156,10 +154,10 @@ $lang = array(
 'Заголовок',
 
 'rte_relationship' => 
-'Связи',
+'Связь',
 
 'rte_selection_error' => 
-'Пожалуйста выберите сначала какой то текст или изображение.',
+'Пожалуйста выберите сначала текст или изображение.',
 
 'blockquote_rte' => 
 'Цитата',
@@ -302,10 +300,8 @@ $lang = array(
 'img_wrap_right' => 
 'Сместить вправо',
 
-'translate' => 
-'Обновить',
-
 ''=>''
 );
 
-// End of File
+/* End of file rte_lang.php */
+/* Location: ./system/expressionengine/language/russian/rte_lang.php */

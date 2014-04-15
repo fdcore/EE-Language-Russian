@@ -12,7 +12,7 @@ $lang = array(
 'Документация',
 
 'support_resources' => 
-'Техническая поддержка',
+'Ресурсы',
 
 'downloads' => 
 'Мои покупки в ExpressionEngine',
@@ -24,7 +24,7 @@ $lang = array(
 'Доступна новая версия ExpressionEngine',
 
 'version_update_inst' => 
-'<a href="%d">Скачайте последнюю версию</a> и следуйте <a href="%i">инструкциям по установке</a>.',
+'Скачайте последнюю версию и следуйте инструкциям по установке',
 
 'current_version' => 
 'Последняя: %v',
@@ -36,12 +36,10 @@ $lang = array(
 'Версия и сборка',
 
 'error_getting_version' => 
-'Вы используете ExpressionEngine %v. Невозможно получить текущую версию сейчас.',
-
-'translate' => 
-'Обновить',
+'Вы используете ExpressionEngine %v. Невозможно получить текущую версию сейчас',
 
 ''=>''
 );
 
-// End of File
+/* End of file expressionengine_info_lang.php */
+/* Location: ./system/expressionengine/language/russian/expressionengine_info_lang.php */

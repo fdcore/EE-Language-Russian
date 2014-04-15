@@ -1,13 +1,16 @@
 <?php
 $lang = array(
 
-
-'metaweblog_api_module_name' => 
+/* ----------------------------------------
+/*  Required for MODULES page
+/* ----------------------------------------*/
+'metaweblog_api_module_name' =>
 'Metaweblog API',
 
 'metaweblog_api_module_description' => 
 'Модуль Metaweblog API',
 
+/*----------------------------------------*/
 'metaweblog_api_home' => 
 'Панель управления',
 
@@ -35,9 +38,10 @@ $lang = array(
 'unauthorized_action' => 
 'Вы не авторизованы для выполнения этой операции.',
 
-'new_entry_errors' => 
-'Ошибки записи:',
-
+'invalid_access' =>
+'Отказ в доступе',
+'new_entry_errors' =>
+'Ошибка при валидации записи: ',
 'entry_uneditable' => 
 'Вы не можете редактировать эту запись. Проверьте наличие соответствующих разрешений для группы участников.',
 
@@ -146,10 +150,9 @@ $lang = array(
 'xhtml' => 
 'XHTML',
 
-'translate' => 
-'Обновить',
 
 ''=>''
 );
 
-// End of File
+/* End of file metaweblog_api_lang.php */
+/* Location: ./system/expressionengine/language/russian/metaweblog_api_lang.php */

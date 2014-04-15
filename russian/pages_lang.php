@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'pages_module_name' => 
 'Страницы',
@@ -128,10 +131,9 @@ $lang = array(
 'example_uri' => 
 '/example/pages/uri/',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file pages_lang.php */
+/* Location: ./system/expressionengine/language/russian/pages_lang.php */

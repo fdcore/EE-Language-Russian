@@ -199,52 +199,14 @@ return <<<EOF
 
 {reset_url}
 
-Ваш пароль будет автоматически изменен, и Вам будет выслан новый пароль.
-
-Если Вы не хотите изменять пароль, просто проигнорируйте это сообщение. Срок его действия истечет через 24 часа.
-
-{site_name}
-{site_url}
-EOF;
-	}
-}
-
-
-
-
-//---------------------------------------------------
-//	Reset Password Notification
-//--------------------------------------------------
-
-if ( ! function_exists('reset_password_notification_title'))
-{
-	function reset_password_notification_title()
-	{
-return <<<EOF
-Новая информация для входа
-EOF;
-	}
-}
-
-if ( ! function_exists('reset_password_notification'))
-{
-	function reset_password_notification()
-	{
-return <<<EOF
-{name},
-
-Ваши новые данные для входа в систему:
-
-Имя пользователя: {username}
-Пароль: {password}
+Ваш пароль, для пользователя {username}, будет автоматически изменен, и Вам будет выслан новый пароль.
+Если вы не хотитевосстановить пароль, проигнорируйте это сообщение. Оно теряет силу в течении 24 часов.
 
 {site_name}
 {site_url}
 EOF;
 	}
 }
-
-
 
 
 //---------------------------------------------------
@@ -646,7 +608,7 @@ return <<<EOF
 <html>
 <head>
 
-<title>Сайт отклюючен</title>
+<title>System Offline</title>
 
 <style type="text/css">
 
@@ -860,4 +822,4 @@ EOF;
 
 
 /* End of file email_data.php */
-/* Location: ./system/expressionengine/language/english/email_data.php */
+/* Location: ./system/expressionengine/language/russian/email_data.php */

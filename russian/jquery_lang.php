@@ -11,10 +11,8 @@ $lang = array(
 'missing_jquery_file' => 
 'Запрошенный jQuery файл не найден.',
 
-'translate' => 
-'Update',
-
 ''=>''
 );
 
-// End of File
+/* End of file jquery_lang.php */
+/* Location: ./system/expressionengine/language/russian/jquery_lang.php */

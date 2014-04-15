@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------
+// Email
+//----------------------------
 
 'email_module_name' => 
 'E-mail',
@@ -92,10 +95,9 @@ $lang = array(
 'email_exit_status' => 
 'Код статуса выхода: %s',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file email_lang.php */
+/* Location: ./system/expressionengine/language/russian/email_lang.php */

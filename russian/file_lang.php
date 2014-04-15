@@ -1,6 +1,9 @@
 <?php
 $lang = array(
 
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
 
 'content_files' => 
 'Файлы',
@@ -11,10 +14,13 @@ $lang = array(
 'file_module_description' => 
 'Модуль файлов',
 
-'translate' => 
-'Update',
+//----------------------------------------
+
+
+
 
 ''=>''
 );
 
-// End of File
+/* End of file file_lang.php */
+/* Location: ./system/expressionengine/language/russian/file_lang.php */
