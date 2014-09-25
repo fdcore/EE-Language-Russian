@@ -95,7 +95,7 @@ $lang = array(
 'delete_fieldtype' => 
 'Удалить тип поля',
 
-'data_will_be_lost' => 
+'fieldtype_data_will_be_lost' => 
 'Все данные связанные с этим типом поля, включая все связанные данные каналов, будут безвозвратно удалены!',
 
 'global_settings_saved' => 
@@ -114,7 +114,7 @@ $lang = array(
 'Требуется:',
 
 'extensions_disabled_warning' => 
-'In order to install this add-on you need to enable extensions. Do you want to enable extensions?',
+'Для того чтобы установить это дополнение Вам необходимо включить расширения. Вы хотите включить расширения?',
 
 'available_to_member_groups' => 
 'Доступные для групп участников',

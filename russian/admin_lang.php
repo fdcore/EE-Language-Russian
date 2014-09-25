@@ -229,8 +229,8 @@ $lang = array(
 'no_search_terms' => 
 'Нет зарегистрированных поисковых запросов',
 
-"extensions_manager" =>
-"Управление расширениями",
+'extensions_manager' =>
+'Управление расширениями',
 'throttling_cfg' => 
 'Конфигурация снижения активности посетителей',
 
@@ -314,6 +314,9 @@ $lang = array(
 
 'caching_driver_file_fail' => 
 'Нельзя использовать %s драйвер, проверьте права доступа к папке с кэшем, которую использует %s драйвер',
+
+'disable_caching' =>
+'Отключить кэширование',
 
 'max_caches' => 
 'Макс. число кэшируемых URL',
@@ -792,8 +795,17 @@ $lang = array(
 'debug_cfg' => 
 'Настройки отладки',
 
+'software_registration' =>
+'Регистрация программного обеспечения',
+
+'license_contact' =>
+'Владелец лицензии Контактный адрес электронной почты',
+
 'license_number' => 
 'Номер лицензии',
+
+'invalid_license_number' =>
+'Указанный номер лицензии не действительный.',
 
 'word_separator' => 
 'Разделитель слов в URL-заголовках',
@@ -897,10 +909,10 @@ $lang = array(
 'group_assignment_defaults_to_two' => 
 'Если требуется активация аккаунта, то после активации участники автоматически попадают в эту группу',
 
-"website_session_type" =>
+'website_session_type' =>
 'Тип сессии для сайта',
 
-"cp_session_type" =>
+'cp_session_type' =>
 'Тип сессии для Панели управления',
 
 'security_cfg' => 
@@ -975,6 +987,12 @@ $lang = array(
 'dictionary_explanation' => 
 'Имя файла со списком слов',
 
+'license_contact_explanation' =>
+'Контактный адрес электронной почты для владельца этой лицензии на программное обеспечение.',
+
+'license_number_explanation' =>
+'Вы можете найти и управлять лицензиями на программное обеспечение на странице EllisLab.com <a href="https://store.ellislab.com/manage">Управление покупками</a> page,',
+
 'image_path' => 
 'Путь к директории изображений',
 
@@ -1041,17 +1059,17 @@ $lang = array(
 'used_in_meta_tags' => 
 'Используется в мета-тегах Панели управления',
 
-"use_newrelic" =>
-"Включить New Relic RUM JavaScript?",
+'use_newrelic' =>
+'Включить New Relic RUM JavaScript?',
 
-"use_newrelic_explanation" =>
+'use_newrelic_explanation' =>
 'Когда включено New Relic, то добавится  <a href="https://newrelic.com/docs/features/real-user-monitoring" rel="external">JavaScript Мониторинга пользователей в реальном времени</a> на все страницы вашего сайта.',
 
-"newrelic_app_name" =>
-"Имя New Relic приложения",
+'newrelic_app_name' =>
+'Имя New Relic приложения',
 
-"newrelic_app_name_explanation" =>
-"Изменение имя приложения, которое отображется на панели управления New Relic приложения, для этой установки ExpressionEngine.",
+'newrelic_app_name_explanation' =>
+'Изменение имя приложения, которое отображется на панели управления New Relic приложения, для этой установки ExpressionEngine.',
 'gzip_output' => 
 'Включить GZIP-вывод?',
 
@@ -1073,22 +1091,22 @@ $lang = array(
 'localization_cfg' => 
 'Настройки локализации',
 
-"date_format" =>
-"Формат даты по умолчанию",
+'date_format' =>
+'Формат даты по умолчанию',
 
-"time_format" =>
-"Формат времени по умолчанию",
+'time_format' =>
+'Формат времени по умолчанию',
 
-"24_hour" =>
-"24-часовой",
+'24_hour' =>
+'24-часа',
 
-"12_hour" =>
-"12-часовой с ДП/ПП",
+'12_hour' =>
+'12-часов с AM/PM',
 
-"include_seconds" =>
-"Добавить секунды в формат времени по умолчанию",
+'include_seconds' =>
+'Включая секунды в стандартном формате времени',
 
-"default_site_timezone" =>
+'default_site_timezone' =>
 'Часовой пояс сервера',
 
 'cookie_cfg' => 
@@ -1160,10 +1178,10 @@ $lang = array(
 'smtp_server' => 
 'Адрес SMTP-сервера',
 
-"smtp_port" =>
-"Порт SMTP-сервера",
+'smtp_port' =>
+'Порт SMTP-сервера',
 'empty_stmp_fields' =>
-'Поле %s требуется для SMTP-сервера.',
+'Поле %s обязательно требуется для SMTP-сервера.',
 
 'smtp_username' => 
 'Логин SMTP ',
@@ -1489,8 +1507,8 @@ $lang = array(
 'source' => 
 'Источник',
 
-"records" =>
-"Записи Базы Данных",
+'records' =>
+'Записи Базы Данных',
 'total_records' => 
 'Всего записей:',
 
@@ -1584,8 +1602,8 @@ $lang = array(
 'add_new_html_button' => 
 'Добавить новую HTML кнопку',
 
-"member_import" =>
-"Утилита импорта участников",
+'member_import' =>
+'Утилита импорта участников',
 
 'specialty_templates' => 
 'Специальные шаблоны',
@@ -1627,7 +1645,7 @@ $lang = array(
 'Об этом плагине дополнительной информации нет',
 
 'update_and_return' =>
-"Обновить и закрыть",
+'Обновить и закрыть',
 
 'template_debugging' => 
 'Включить отладку шаблона?',
@@ -1684,7 +1702,7 @@ $lang = array(
 'Указанное Вами название блога может состоять только из букв, цифр, пробелов, подчеркиваний и дефисов',
 
 'developer_logs' =>
-'У вас имеется  %d непросмотренных элементов в <a href="%s">Журнале разработчика</a>.',
+'У вас %d непросмотренных записей в <a href="%s">Журнале разработчика</a>.',
 
 ''=>''
 );

@@ -209,6 +209,43 @@ EOF;
 }
 
 
+
+
+//---------------------------------------------------
+//	Reset Password Notification
+//--------------------------------------------------
+
+if ( ! function_exists('reset_password_notification_title'))
+{
+	function reset_password_notification_title()
+	{
+return <<<EOF
+Новая информация для входа
+EOF;
+	}
+}
+
+if ( ! function_exists('reset_password_notification'))
+{
+	function reset_password_notification()
+	{
+return <<<EOF
+{name},
+
+Ваши новые данные для входа в систему:
+
+Имя пользователя: {username}
+Пароль: {password}
+
+{site_name}
+{site_url}
+EOF;
+	}
+}
+
+
+
+
 //---------------------------------------------------
 //	Validated Member Notification
 //--------------------------------------------------
@@ -608,7 +645,7 @@ return <<<EOF
 <html>
 <head>
 
-<title>System Offline</title>
+<title>Сайт отклюючен</title>
 
 <style type="text/css">
 

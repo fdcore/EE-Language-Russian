@@ -142,6 +142,8 @@ $lang = array(
 
 'trans_file_not_writable' => 
 'Файл перевода не имеет прав на запись.',
+'logs_deleted'=>
+'Журнал удален',
 
 'import_from_mt' => 
 'Утилита импорта из Movable Type',
@@ -166,6 +168,8 @@ $lang = array(
 
 'preferences_updated' => 
 'Настройки изменены',
+'advanced_users_only' =>
+'Только для опытных пользователей',
 
 'true' => 
 'Истина',
@@ -178,17 +182,28 @@ $lang = array(
 'Внимание! Директория перевода защищена от записи.',
 
 /* Developer Log */
-'log_id'				=> 'ID Журнала',
-'log_message'			=> 'Сообщение',
-'deprecated_function'	=> 'Не рекомендуемая функция %s обратилась',
-'deprecated_on_line'	=> 'в %s на строки %d.',
-'deprecated_since'		=> 'Не рекомендуется начиная с %s.',
-'deprecated_use_instead'	=> 'Используйте %s вместо.',
-'deprecated_template'	=> 'Из шаблона тэга %s в %s.',
-'deprecated_snippets'	=> 'Этот тэг может быть проанализирован с одним из этих фрагментов: %s',
-'deprecation_detected'	=> 'Это журнал для разработчиков, для информирования Администраторов сайта о всех уведомлениях или предупреждениях системы.',
-'dev_log_view_report'	=> 'Просмотреть отчет',
-'dev_log_help'			=> 'Что это означает?',
+'log_id'=>
+'ID Журнала',
+'log_message'=>
+'Сообщение',
+'deprecated_function'=>
+'Не рекомендуемая функция %s обратилась',
+'deprecated_on_line'=>
+'в %s на строки %d.',
+'deprecated_since'=>
+'Не рекомендуется начиная с %s.',
+'deprecated_use_instead'=>
+'Используйте %s вместо.',
+'deprecated_template'=>
+'Из шаблона тэга %s в %s.',
+'deprecated_snippets'=>
+'Этот тэг может быть проанализирован с одним из этих фрагментов: %s',
+'deprecation_detected'=>
+'Это журнал для разработчиков, для информирования Администраторов сайта о всех уведомлениях или предупреждениях системы.',
+'dev_log_view_report'=>
+'Просмотреть отчет',
+'dev_log_help'=>
+'Что это означает?',
 'deprecated_meaning'	=>
 '<p>Одна из двух ситуаций:</p>
 <ol>

@@ -213,6 +213,9 @@ $lang = array(
 'your_profile' => 
 'Ваш публичный профиль',
 
+'update_preferences' =>
+'Настройки обновлены',
+
 'edit_signature' => 
 'Редактировать подпись',
 
